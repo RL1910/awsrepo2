@@ -1,0 +1,84 @@
+public class BT(){
+	
+	BT parent;
+	BT leftChild;
+	BT rightChild; 
+	int data;
+
+	public BT (){}
+
+}
+
+/*
+
+	7
+6		12
+	11		13
+10
+
+
+*/
+
+public class BTActions(){
+	
+BT bT = null;
+
+boolean add(int a){
+	if(bt == null){
+		BT newBT = new BT();
+		newBT.data = a;
+	} else if {
+		Parent = bT;
+		Temp = bT;
+		while(parent != null) {
+			if (parent.data = a)
+				//return duplicate
+			else if (parent.data < a) {
+				bT =parent;
+				parent = parent.rightChild;
+			} else {
+				bt= parent;
+				parent = parent.leftChild;
+			}
+		}
+
+		BT newBT = new BT();
+		newBT.data = a;
+		temp.data < a
+		temp.right = newBt
+		if data > a
+		temp.left = newBT;
+		
+		
+	}
+}
+
+boolean delete(int a){
+
+}
+
+boolean search(int a){
+	if(bt == null){
+		return false;
+	} else if {
+		Parent = bT;
+		Temp = bT;
+		while(parent != null) {
+			if (parent.data = a)
+				return true;
+			else if (parent.data < a) {
+				bT =parent;
+				parent = parent.rightChild;
+			} else {
+				bt= parent;
+				parent = parent.leftChild;
+			}
+		}
+
+		return false;	
+		
+	}
+}
+
+
+}
